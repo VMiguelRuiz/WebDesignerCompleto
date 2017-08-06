@@ -96,14 +96,14 @@
     margin-right: 10px;
 }
 
-.contato-dados ul li a{
-    border: 3px solid transparent;
+.contato-dados ul li a i{
     display: block;
     padding: 6px;
+    color: #fec63e;
 }
 
-.contato-dados ul li a:hover{
-    border-color: #fec63e;
+.contato-dados ul li a i:hover{
+    color: #000;
 }
 
 .contato-mapa{
