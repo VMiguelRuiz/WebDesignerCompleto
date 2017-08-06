@@ -362,7 +362,7 @@ img {
 }
 
 .footer_redes ul li a {
-    border: 3px solid #000;
+    border: 3px solid transparent;
     display: block;
     padding: 6px;
 }
