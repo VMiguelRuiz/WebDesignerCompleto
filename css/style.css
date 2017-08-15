@@ -12,6 +12,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .subtitulo {
@@ -360,11 +361,11 @@ img {
     font-family: Georgia, "Times New Roman", serif;
 }
 
-.footer_redes ul li a i {
+.footer_redes ul > li > a > i {
     color: #fec63e;
 }
 
-.footer_redes ul li a i:hover {
+.footer_redes ul > li > a > i:hover {
     color: #fff;
 }
 

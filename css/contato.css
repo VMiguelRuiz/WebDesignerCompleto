@@ -9,14 +9,6 @@
     padding: 40px 0;
 }
 
-.contato h2 {
-    color: #fec63e;
-}
-
-.contato h2:after {
-    background: #fec63e;
-}
-
 #form-contato {
     padding-right: 60px;
 }
