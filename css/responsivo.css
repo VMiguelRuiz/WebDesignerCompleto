@@ -1,14 +1,12 @@
 /*Tablets*/
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .qualidade:after{
+    .qualidade:after {
         right: 66px;
     }
-
     .qualidade_lista li {
         padding: 0 10px;
     }
-
     .qualidade_lista li h3 {
         font-size: 18px;
         letter-spacing: .1em;
@@ -17,96 +15,129 @@
         text-transform: uppercase;
         text-align: center;
     }
+    /*Produtos*/
+    .produto-item h2 {
+        top: -150px;
+    }
+    .produto-icone {
+        padding: 41px 0;
+    }
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: 122px;
+    }
+    .produto-info ul li {
+        width: 181px;
+    }
 }
 
 
 /*Smartphones*/
 
 @media only screen and (max-width: 767px) {
-
     /*Centralizacao*/
     .produtos ul li, .portfolio ul li, .qualidade ul li {
         margin: 20px auto 0 auto;
     }
-
     /*Header*/
-
     .header {
         position: relative;
         padding: 0;
     }
-
-    .header img{
-        margin: 0 auto;
+    .header img {
+        margin: 20px auto;
     }
-
-    .header_menu{
+    .header_menu {
         text-align: center;
         margin: 0 0 10px 0;
     }
-
-    .header_menu ul li{
+    .header_menu ul li {
         margin: 0 5px 5px 5px;
     }
-
-    .header_menu ul li a{
+    .header_menu ul li a {
         border: 4px solid #000;
         width: 135px;
         display: block;
         float: left;
-
     }
-
-    .header_menu ul li a:hover{
+    .header_menu ul li a:hover {
         border-color: #fff;
     }
-
-    .header_menu ul li a.menu-ativo{
+    .header_menu ul li a.menu-ativo {
         border-color: #fff;
     }
-
     /*Introducao*/
-
-    .introducao{
+    .introducao {
         margin-top: 0;
         padding-top: 10px;
         background: url("../img/bg-mobile.jpg") no-repeat center;
     }
-
-    .introducao h1{
+    .introducao h1 {
         font-size: 36px;
     }
-
     .introducao {
         padding: 55px 0;
     }
-
     .introducao-interna {
         margin-top: 0px;
     }
-
     /*Qualidade Home*/
-
-    .qualidade ul{
+    .qualidade ul {
         padding: 20px 0;
     }
-
-    .qualidade:after{
+    .qualidade:after {
         background: none;
     }
-
-    .produtos .call{
+    .produtos .call {
         margin-top: 20px;
     }
-
     /*Call*/
-
-    .call{
+    .call {
         padding-top: 10px;
     }
-
-    .copy{
+    .copy {
         text-align: center;
     }
-
+    /*SOBRE*/
+    .missao-sobre p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0;
+    }
+    .missao-sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .missao-sobre .foto-equipe {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    /*Produtos*/
+    .margem-item, .produto-item{
+        margin-top: 40px;
+    }
+    .produto-item h2 {
+        top: -100px;
+        margin-bottom: -68px;
+    }
+    .produto-icone {
+        padding: 41px 0;
+    }
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: auto;
+    }
+    .produto-info ul li {
+        font-size: 16px;
+        width: 149px;
+    }
+    .form-orcamento, .form-contato {
+        padding-right: 0;
+    }
 }
