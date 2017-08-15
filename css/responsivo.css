@@ -61,6 +61,10 @@
         border-color: #fff;
     }
 
+    .header_menu ul li a.menu-ativo{
+        border-color: #fff;
+    }
+
     /*Introducao*/
 
     .introducao{
@@ -75,6 +79,10 @@
 
     .introducao {
         padding: 55px 0;
+    }
+
+    .introducao-interna {
+        margin-top: 0px;
     }
 
     /*Qualidade Home*/
