@@ -250,7 +250,7 @@ img {
     background: #fec63e;
 }
 
-.portfolio li:last-child {
+.portfolio div:last-of-type {
     margin-top: 20px;
 }
 
