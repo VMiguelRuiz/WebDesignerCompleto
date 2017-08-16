@@ -250,7 +250,7 @@ img {
     background: #fec63e;
 }
 
-.portfolio div:last-of-type {
+.portfolio .slides:last-of-type {
     margin-top: 20px;
 }
 
@@ -361,11 +361,11 @@ img {
     font-family: Georgia, "Times New Roman", serif;
 }
 
-.footer_redes ul > li > a > i {
+.footer_redes ul>li>a>i {
     color: #fec63e;
 }
 
-.footer_redes ul > li > a > i:hover {
+.footer_redes ul>li>a>i:hover {
     color: #fff;
 }
 
@@ -390,4 +390,64 @@ img {
     width: 100%;
     background: #fec63e;
     padding: 20px 0
+}
+
+
+/*Plugin Slide*/
+
+.rslides, .rslides_portfolio {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li, .rslides_portfolio li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child, .rslides_portfolio li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img, .rslides_portfolio img {
+    display: block;
+    height: auto;
+    width: 100%;
+    border: 0;
+}
+
+.rslides_tabs {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.rslides_tabs li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.rslides_tabs li a {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #1d1d1d;
+    color: #1d1d1d;
+    border-radius: 12px;
+    overflow: hidden;
+    text-indent: -200px;
+}
+
+.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+    background: #fec63e;
+    color: #fec63e;
 }

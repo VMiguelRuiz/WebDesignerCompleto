@@ -93,6 +93,10 @@
     .produtos .call {
         margin-top: 20px;
     }
+    /*Slide*/
+    .rslides_tabs{
+        clear: both;
+    }
     /*Call*/
     .call {
         padding-top: 10px;
@@ -139,5 +143,9 @@
     }
     .form-orcamento, .form-contato {
         padding-right: 0;
+    }
+
+    .rslides_tabs li {
+        padding: 0 5px;
     }
 }
